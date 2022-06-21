@@ -1,0 +1,23 @@
+$primary-color: '#E2A983';
+
+@import 'animate.css';
+
+//adding fonts for the portfolio
+@font-face {
+    font-family: 'Prompt';
+    src: url('./assets/fonts/prompt/Prompt-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Signika Negative';
+    src: url('./assets/fonts/SignikaNegative/SignikaNegative-VariableFont_wght.ttf')
+        format('ttf');
+}
+@font-face {
+    font-family: 'Nova Round';
+    src: url('./assets/fonts/NovaRound/NovaRound-Regular.ttf') format('ttf');
+}
+
+input,
+textarea {
+    font-family: 'Prompt';
+}
